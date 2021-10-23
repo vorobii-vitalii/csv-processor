@@ -1,4 +1,3 @@
-# Command executor project
 # CSV serialization/deserialization annotation-driven library, created for educational purpose.
 ### But in any case, feel free to contribute to this project
 
@@ -67,7 +66,7 @@ public class SerializeDemo {
 ```
 
 #### Output:
-_task_name;created_at;created_by_
+_task_name;created_at;created_by_ <br>
 _Task 1;2021-10-23;'Michael'_
 
 
@@ -91,5 +90,5 @@ public class DeserializeDemo {
 }
 ```
 #### Output:
-_Task{name='Task 1', createdAt=2021-10-23, createdBy='Michael', priority=null}_
+_Task{name='Task 1', createdAt=2021-10-23, createdBy='Michael', priority=null}_ <br>
 _Task{name='Task 2', createdAt=2021-10-23, createdBy='Antonio', priority=null}_
